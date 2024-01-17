@@ -37,9 +37,9 @@ let data : { fn : string,lname : string, email : string | null}[] = [
         email : 'jdoe@gmail.com'
     },
     {
-        fn : 'Jacqueline',
+        fn : 'Jenny',
         lname : 'Doe',
-        email : 'jackyGirl@gmail.com'
+        email : 'jen@gmail.com'
     }
 ]
 

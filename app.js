@@ -28,9 +28,9 @@ var data = [
         email: 'jdoe@gmail.com'
     },
     {
-        fn: 'Jacqueline',
+        fn: 'Jenny',
         lname: 'Doe',
-        email: 'jackyGirl@gmail.com'
+        email: 'jen@gmail.com'
     }
 ];
 for (var _i = 0, data_1 = data; _i < data_1.length; _i++) {
