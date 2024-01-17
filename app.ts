@@ -43,7 +43,7 @@ let data : { fn : string,lname : string, email : string | null}[] = [
     }
 ]
 
-for (const i of data){
-    cl(i.email)
-    cl(i.email?.toLowerCase())
+for (const i in data){
+    // cl(i.email)
+    cl(i)
 }

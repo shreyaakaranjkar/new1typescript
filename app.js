@@ -1,4 +1,3 @@
-var _a;
 var cl = console.log;
 var n1 = document.getElementById("n1");
 var n2 = document.getElementById("n2");
@@ -33,8 +32,7 @@ var data = [
         email: 'jen@gmail.com'
     }
 ];
-for (var _i = 0, data_1 = data; _i < data_1.length; _i++) {
-    var i = data_1[_i];
-    cl(i.email);
-    cl((_a = i.email) === null || _a === void 0 ? void 0 : _a.toLowerCase());
+for (var i of data) {
+    // cl(i.email)
+    cl(i.email?.toLowerCase());
 }
